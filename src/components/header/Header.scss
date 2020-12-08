@@ -1,0 +1,22 @@
+.header {
+   background: blue;
+   padding: 20px 50px;
+
+   &__content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h1 {
+         color: #0cf;
+      }
+
+      ul {
+         display: flex;
+         a {
+            margin-left: 40px;
+            font-size: 20px;
+            color: #0cf;
+         }
+      }
+   }
+}
